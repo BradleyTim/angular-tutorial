@@ -1,3 +1,4 @@
 <section>
  <div *ngFor="let human of humans">{{ human.name }}</div>
 </section>
+<section *ngIf="humans.length > 1">{{'There are ' + humans.length + ' humans.' }}</section>
