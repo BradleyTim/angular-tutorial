@@ -4,11 +4,11 @@ export class Human {
     this.age = age;
   }
 
-  get Name() {
-    return this.name;
-  }
+  // get Name() {
+  //   return this.name;
+  // }
 
-  set Name(name) {
-    this.name = name;
-  }
+  // set Name(name) {
+  //   this.name = name;
+  // }
 }
